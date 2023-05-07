@@ -1,0 +1,15 @@
+{
+    "recommendations": [
+        "bierner.github-markdown-preview",
+        "bungcip.better-toml",
+        "davidanson.vscode-markdownlint",
+        "eamodio.gitlens",
+        "gruntfuggly.todo-tree",
+        "ms-python.black-formatter",
+        "ms-python.isort",
+        "streetsidesoftware.code-spell-checker",
+        "timonwong.shellcheck",
+        "visualstudioexptteam.vscodeintellicode",
+        "yzhang.markdown-all-in-one",
+    ],
+}
