@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "linux-traffic-control-playground"
+version = "1.0.0"
+description = "A simple yet fully fledged workspace to play with `tc` in a docker container"
+authors = ["Ayaz Badouraly <badouralix@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+flake8 = "^6.0.0"
+jupyter = "^1.0.0"
+mypy = "^1.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

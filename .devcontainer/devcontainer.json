@@ -1,0 +1,25 @@
+{
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"DavidAnson.vscode-markdownlint",
+				"Gruntfuggly.todo-tree",
+				"VisualStudioExptTeam.vscodeintellicode",
+				"bierner.github-markdown-preview",
+				"bungcip.better-toml",
+				"eamodio.gitlens",
+				"ms-python.black-formatter",
+				"ms-python.isort",
+				"ms-python.python",
+				"ms-toolsai.jupyter",
+				"streetsidesoftware.code-spell-checker",
+				"timonwong.shellcheck",
+				"yzhang.markdown-all-in-one"
+			]
+		}
+	},
+	"postCreateCommand": "poetry install"
+}
