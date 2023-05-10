@@ -1,0 +1,15 @@
+{
+    "argv": [
+        "/workspaces/linux-traffic-control-playground/.venv/bin/python3",
+        "-m",
+        "bash_kernel",
+        "-f",
+        "{connection_file}"
+    ],
+    "codemirror_mode": "shell",
+    "display_name": "Bash",
+    "env": {
+        "PS1": "$"
+    },
+    "language": "bash"
+}

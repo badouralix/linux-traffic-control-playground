@@ -5,6 +5,9 @@
 	"capAdd": [
 		"NET_ADMIN"
 	],
+	"containerEnv": {
+		"JUPYTER_PATH": "${containerWorkspaceFolder}"
+	},
 	"customizations": {
 		"vscode": {
 			"extensions": [
