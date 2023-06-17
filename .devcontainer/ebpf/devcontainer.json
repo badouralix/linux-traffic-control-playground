@@ -1,0 +1,22 @@
+{
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"capAdd": [
+		"NET_ADMIN",
+		"SYS_ADMIN",
+		"SYSLOG"
+	],
+	"containerEnv": {
+		"JUPYTER_PATH": "${containerWorkspaceFolder}"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"ms-toolsai.jupyter"
+			]
+		}
+	},
+	"postCreateCommand": "poetry install"
+}
