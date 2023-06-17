@@ -6,4 +6,4 @@ RUN apt-get update && \
     rm -rf /var/cache/apt/* /var/lib/apt/lists/*
 
 # Install poetry https://stackoverflow.com/questions/53835198/integrating-python-poetry-with-docker
-RUN python3 -m pip install --no-cache-dir poetry
+RUN python3 -m pip install --break-system-packages --no-cache-dir poetry
